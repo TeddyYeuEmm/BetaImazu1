@@ -212,7 +212,7 @@ local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nguyen
     local Window = Fluent:CreateWindow({
     Title = "Imazu Hub " ,
     SubTitle = "Beta🫠",
-    TabWidth = 200,
+    TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "",
@@ -224,7 +224,6 @@ local Tabs = {
     About = Window: AddTab({ Title = "• information", Icon = "clipboard" }),
 	Settings = Window:AddTab({ Title = "• Settings", Icon = "cog" }),
 	Main = Window:AddTab({ Title = "• Auto Farm", Icon = "ghost" }),
-  Item Farm = Window:AddTab({ Title = "• Item", Icon = "sword"})
 }
 
 local Options = Fluent.Options
